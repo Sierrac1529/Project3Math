@@ -1,4 +1,4 @@
-{
+
   "questions": [
                 {
                   "questionType" : "true_false",
@@ -25,4 +25,3 @@
                   "options" : ["true", "false"]
                 }
   ]
-}
