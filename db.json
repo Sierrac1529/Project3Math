@@ -1,45 +1,190 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "mathquestions": [
+  "geoquestions": [
      {
-    "questionType" : "true_false",
-    "questionText" : "2+2 = 4",
-    "correctAnswer" : "true"
-    },
-    {
+      "id" : 1,
+      "questionType" : "true_false",
+      "questionText" : "Paris is in Italy.",
+      "correctAnswer" : "false",
+      "options" : ["true", "false"]
+      },
+     {
+      "id": 2,
       "questionType" : "text_input",
-    "questionText" : "What is the value of the expression 1+1",
-    "correctAnswer" : "2",
-    "answerFieldId" : "answer_to_question"
-    },
-    {
+      "questionText" : "Is London located in England or Germany?",
+      "correctAnswer" : "England",
+      "answerFieldId" : "answer_to_question"
+      },
+     {
+      "id" : 3,
       "questionType" : "true_false",
       "questionText" : "Is 18 even or odd?",
       "correctAnswer" : "even",
       "options" : ["even", "odd"]
-    },
-    {
+      },
+     {
+      "id" : 4,
       "questionType" : "true_false",
-    "questionText" : "The square root of 36 is 4.",
-    "correctAnswer" : "false",
-    "options" : ["true", "false"]
-    }
+      "questionText" : "The square root of 36 is 4.",
+      "correctAnswer" : "false",
+      "options" : ["true", "false"]
+      },
+     {
+      "id" : 5
 
+      },
+      {
+      "id" : 6
+      
+      },
+      {
+      "id" : 7
+      
+      },
+      {
+      "id" : 8
+      
+      },
+      {
+      "id" : 9
+      
+      },
+      {
+      "id" : 10
+      
+      },
+      {
+      "id" : 11
+      
+      },
+      {
+      "id" : 12
+      
+      },
+      {
+      "id" : 13
+      
+      },
+      {
+      "id" : 14
+      
+      },
+      {
+      "id" : 15
+      
+      },
+      {
+      "id" : 16
+      
+      },
+      {
+      "id" : 17
+      
+      },
+      {
+      "id" : 18
+      
+      },
+      {
+      "id" : 19
+      
+      },
+      {
+      "id" : 20
+      
+      }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "mathquestions": [
+                     {
+                      "id" : 1,
+                      "questionType" : "true_false",
+                      "questionText" : "2+2 = 4",
+                      "correctAnswer" : "true"
+                      },
+                     {
+                      "id" : 2,
+                      "questionType" : "text_input",
+                      "questionText" : "What is the value of the expression 1+1",
+                      "correctAnswer" : "2",
+                      "answerFieldId" : "answer_to_question"
+                      },
+                     {
+                      "id" : 3,
+                      "questionType" : "true_false",
+                      "questionText" : "Is 18 even or odd?",
+                      "correctAnswer" : "even",
+                      "options" : ["even", "odd"]
+                      },
+                     {
+                      "id" : 4,
+                      "questionType" : "true_false",
+                      "questionText" : "The square root of 36 is 4.",
+                      "correctAnswer" : "false",
+                      "options" : ["true", "false"]
+                      },
+                     {
+                      "id" : 5
+
+                      },
+                      {
+                      "id" : 6
+                      
+                      },
+                      {
+                      "id" : 7
+                      
+                      },
+                      {
+                      "id" : 8
+                      
+                      },
+                      {
+                      "id" : 9
+                      
+                      },
+                      {
+                      "id" : 10
+                      
+                      },
+                      {
+                      "id" : 11
+                      
+                      },
+                      {
+                      "id" : 12
+                      
+                      },
+                      {
+                      "id" : 13
+                      
+                      },
+                      {
+                      "id" : 14
+                      
+                      },
+                      {
+                      "id" : 15
+                      
+                      },
+                      {
+                      "id" : 16
+                      
+                      },
+                      {
+                      "id" : 17
+                      
+                      },
+                      {
+                      "id" : 18
+                      
+                      },
+                      {
+                      "id" : 19
+                      
+                      },
+                      {
+                      "id" : 20
+                      
+                      }
+
+  ]
 }
