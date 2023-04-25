@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "geoquestions": [
     {
       "id": 1,
       "title": "Post 1"
@@ -13,7 +13,7 @@
       "title": "Post 3"
     }
   ],
-  "questions": [
+  "mathquestions": [
      {
     "questionType" : "true_false",
     "questionText" : "2+2 = 4",
@@ -24,7 +24,20 @@
     "questionText" : "What is the value of the expression 1+1",
     "correctAnswer" : "2",
     "answerFieldId" : "answer_to_question"
+    },
+    {
+      "questionType" : "true_false",
+      "questionText" : "Is 18 even or odd?",
+      "correctAnswer" : "even",
+      "options" : ["even", "odd"],
+    },
+    {
+      "questionType" : "true_false",
+      "questionText" : "The square root of 36 is 4.",
+      "correctAnswer" : "false",
+      "options" : ["true", "false"]
     }
+
   ],
   "profile": {
     "name": "typicode"
