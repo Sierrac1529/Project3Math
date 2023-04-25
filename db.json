@@ -13,7 +13,7 @@
       "title": "Post 3"
     }
   ],
-  "comments": [
+  "questions": [
      {
     "questionType" : "true_false",
     "questionText" : "2+2 = 4",
