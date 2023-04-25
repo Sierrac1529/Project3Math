@@ -18,6 +18,12 @@
     "questionType" : "true_false",
     "questionText" : "2+2 = 4",
     "correctAnswer" : "true"
+    },
+    {
+      "questionType" : "text_input",
+    "questionText" : "What is the value of the expression 1+1",
+    "correctAnswer" : "2",
+    "answerFieldId" : "answer_to_question"
     }
   ],
   "profile": {
