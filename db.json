@@ -29,9 +29,9 @@
       "questionType" : "true_false",
       "questionText" : "Is 18 even or odd?",
       "correctAnswer" : "even",
-      "options" : ["even", "odd"],
+      "options" : ["even", "odd"]
     }
-    
+
   ],
   "profile": {
     "name": "typicode"
