@@ -30,6 +30,12 @@
       "questionText" : "Is 18 even or odd?",
       "correctAnswer" : "even",
       "options" : ["even", "odd"]
+    },
+    {
+      "questionType" : "true_false",
+    "questionText" : "The square root of 36 is 4.",
+    "correctAnswer" : "false",
+    "options" : ["true", "false"]
     }
 
   ],
