@@ -17,9 +17,9 @@
      {
       "id" : 3,
       "questionType" : "true_false",
-      "questionText" : "",
-      "correctAnswer" : "",
-      "options" : [""]
+      "questionText" : "Which continent is China in?",
+      "correctAnswer" : "Asia",
+      "options" : ["Europe", "Asia"]
       },
      {
       "id" : 4,
@@ -30,114 +30,115 @@
       },
      {
       "id" : 5,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
+      "questionType" : "true_false",
+      "questionText" : "True or false: Russia touches 2 continents.",
+      "correctAnswer" : "true",
+      "options" : ["true", "false"]
       },
       {
       "id" : 6,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "text_input",
+      "questionText" : "What continent is Morocco located in?",
+      "correctAnswer" : "Africa",
+      "answerFieldId" : "answer_to_question"
       },
       {
       "id" : 7,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "true_false",
+      "questionText" : "What is the closest ocean to Madagascar?",
+      "correctAnswer" : "Indian Ocean",
+      "options" : ["Indian Ocean", "Pacific Ocean"]
       },
       {
       "id" : 8,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "text_input",
+      "questionText" : "What country is the Nile located in?",
+      "correctAnswer" : "Egypt",
+      "answerFieldId" : "answer_to_question"
       },
       {
       "id" : 9,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "true_false",
+      "questionText" : "Which continent is known for big spiders?",
+      "correctAnswer" : "Australia",
+      "options" : ["Europe", "Australia"]
       },
       {
       "id" : 10,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "true_false",
+      "questionText" : "Australia has kangaroos.",
+      "correctAnswer" : "true",
+      "options" : ["true", "false"]
       },
       {
       "id" : 11,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "text_input",
+      "questionText" : "Fill in the blank: Jamaica is located in the ________ Sea.",
+      "correctAnswer" : "Caribbean",
+      "answerFieldId" : "answer_to_question"
       },
       {
       "id" : 12,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "text_input",
+      "questionText" : "What City is known as The Big Apple?",
+      "correctAnswer" : "New York",
+      "answerFieldId" : "answer_to_question"
       },
       {
       "id" : 13,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "text_input",
+      "questionText" : "Fill in the blank: Uruguay touches the _______ Ocean.",
+      "correctAnswer" : "Atlantic",
+      "answerFieldId" : "answer_to_question"
       },
       {
       "id" : 14,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "true_false",
+      "questionText" : "Where is the city Perth located?",
+      "correctAnswer" : "Australia",
+      "options" : ["Thailand", "Australia"]
       },
       {
       "id" : 15,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "true_false",
+      "questionText" : "What country shares an island with the Dominican Republic?",
+      "correctAnswer" : "Haiti",
+      "options" : ["Guadeloupe", "Haiti"]
       },
       {
       "id" : 16,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
+      "questionType" : "text_input",
+      "questionText" : "What state is Houston located in?",
+      "correctAnswer" : "answer_to_question"
       
       },
       {
       "id" : 17,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
+      "questionType" : "text_input",
+      "questionText" : "Fill in the blank: Mexico is next to the _____ Ocean.",
+      "correctAnswer" : "answer_to_question"
       
       },
       {
       "id" : 18,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "true_false",
+      "questionText" : "Toronto is located in ______.",
+      "correctAnswer" : "Canada",
+      "options" : ["Canada", "the United States"]
       },
       {
       "id" : 19,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "true_false",
+      "questionText" : "What country is Alaska part of?",
+      "correctAnswer" : "The United States",
+      "options" : ["Canada", "The United States"]
       },
       {
       "id" : 20,
-      "questionType" : "",
-      "questionText" : "",
-      "correctAnswer" : ""
-      
+      "questionType" : "true_false",
+      "questionText" : "Which island is NOT part of the Caribbean?",
+      "correctAnswer" : "Cyprus",
+      "options" : ["Martinique", "Cyprus"]
       }
   ],
   "mathquestions": [
