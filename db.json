@@ -171,10 +171,10 @@
                       },
                      {
                       "id" : 5,
-                      "questionType" : "",
-                      "questionText" : "",
-                      "correctAnswer" : ""
-
+                      "questionType" : "text_input",
+                      "questionText" : "9^2 = ___",
+                      "correctAnswer" : "81",
+                      "answerFieldId" : "answer_to_question"
                       },
                       {
                       "id" : 6,
