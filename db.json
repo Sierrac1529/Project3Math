@@ -1,145 +1,173 @@
 {
   
-  "mathquestions": [
+  "htmlquestions": [
+                    {
+                      "id" : 0,
+                      "questionType" : "",
+                      "questionText" : "",
+                      "correctAnswer" : "",
+                      "explanation" : "",
+                      },
                      {
                       "id" : 1,
                       "questionType" : "true_false",
-                      "questionText" : "2 + 2 = 4",
-                      "correctAnswer" : "true"
+                      "questionText" : "The 'src' attribute is used to specify the location of an external CSS file.",
+                      "correctAnswer" : "true",
+                      "explanation" : "The 'src' attribute is used to specify the location of an external JavaScript file. For CSS, the 'href' attribute is used instead.",
+                      "options" : ["true", "false"]
                       },
                      {
                       "id" : 2,
                       "questionType" : "text_input",
-                      "questionText" : "What is the value of the expression 1+1",
-                      "correctAnswer" : "2",
+                      "questionText" : "The <______> tag is used to create a hyperlink in HTML.",
+                      "correctAnswer" : "a",
+                      "explanation" : "The 'a' tag, short for anchor, is used to create hyperlinks in HTML.",
                       "answerFieldId" : "answer_to_question"
                       },
                      {
                       "id" : 3,
                       "questionType" : "true_false",
-                      "questionText" : "Is 18 even or odd?",
-                      "correctAnswer" : "even",
-                      "options" : ["even", "odd"]
+                      "questionText" : "The 'id' attribute can be used multiple times in a single HTML document.",
+                      "correctAnswer" : "false",
+                      "explanation" : "The 'id' attribute should be unique within a single HTML document. If you need to apply the same styles to multiple elements, you can use the 'class' attribute instead.",
+                      "options" : ["true", "false"]
                       },
                      {
                       "id" : 4,
-                      "questionType" : "true_false",
-                      "questionText" : "The square root of 36 is 4.",
-                      "correctAnswer" : "false",
-                      "options" : ["true", "false"]
+                      "questionType" : "mc",
+                      "questionText" : "Which tag is used to create an unordered list in HTML?",
+                      "correctAnswer" : "<ul>",
+                      "explanation" : "The <ul> tag is used to create an unordered list in HTML.",
+                      "options" : ["<ol>", "<ul>", "<li>"]
                       },
                      {
                       "id" : 5,
                       "questionType" : "text_input",
-                      "questionText" : "9^2 = ___",
-                      "correctAnswer" : "81",
+                      "questionText" : "The ___________ property is used to set the background color of an HTML element.",
+                      "correctAnswer" : "background-color",
+                      "explanation" : "The 'background-color' property is used to set the background color of an HTML element using CSS.",
                       "answerFieldId" : "answer_to_question"
                       },
                       {
                       "id" : 6,
                       "questionType" : "text_input",
-                      "questionText" : "32 + 64 = ___",
-                      "correctAnswer" : "96",
+                      "questionText" : "The <____> tag is used to define a paragraph in HTML.",
+                      "correctAnswer" : "p",
+                      "explanation" : "P is short for 'paragraph'",
                       "answerFieldId" : "answer_to_question"
                       },
                       {
                       "id" : 7,
                       "questionType" : "true_false",
-                      "questionText" : "5 x 5 = ___",
-                      "correctAnswer" : "25",
-                      "options" : ["52", "25"]
+                      "questionText" : "Inline styles override styles specified in an external CSS file.",
+                      "correctAnswer" : "true",
+                      "explanation" : "Inline styles are applied directly to the HTML element and take precedence over external styles.",
+                      "options" : ["true", "false"]
                       },
                       {
                       "id" : 8,
-                      "questionType" : "true_false",
-                      "questionText" : "32 - 17 = ___",
-                      "correctAnswer" : "15",
-                      "options" : ["19", "15"]
+                      "questionType" : "mc",
+                      "questionText" : "Which tag is used to define a table in HTML?",
+                      "correctAnswer" : "<table>",
+                      "explanation" : "The <table> tag is used to define a table in HTML.",
+                      "options" : ["<td>", "<h3>","<table>"]
                       },
                       {
                       "id" : 9,
-                      "questionType" : "true_false",
-                      "questionText" : "103 + 207 = ___",
-                      "correctAnswer" : "310",
-                      "options" : ["310", "291"]
+                      "questionType" : "mc",
+                      "questionText" : "Which CSS property is used to align text horizontally?",
+                      "correctAnswer" : "text-align",
+                      "explanation" : "The text-align property is used to align text horizontally in CSS.",
+                      "options" : ["line-height", "text-align", "letter-spacing"]
                       },
                       {
                       "id" : 10,
                       "questionType" : "true_false",
-                      "questionText" : "What quadrant is (-5, 3) located in on a graph?",
-                      "correctAnswer" : "Quadrant 2",
-                      "options" : ["Quadrant 2", "Quadrant 4"]
+                      "questionText" : "True or False: The 'float' property can be used to move an element to the left or right of its container.",
+                      "correctAnswer" : "true",
+                      "explanation" : "The 'float' property can be used to position an element to the left or right of its container. This is often used in creating layouts with multiple columns.",
+                      "options" : ["true", "false"]
                       },
                       {
                       "id" : 11,
-                      "questionType" : "true_false",
-                      "questionText" : "70 x 3 = ___",
-                      "correctAnswer" : "210",
-                      "options" : ["180", "210"]
+                      "questionType" : "picture",
+                      "questionText" : "Which is displayed when the background-color is set to #FF00FF?",
+                      "correctAnswer" : "https://www.colorcombos.com/colors/FF00FF",
+                      "explanation" : "#FF00FF Is the color displayed in the first image.",
+                      "options" : ["https://www.colorcombos.com/colors/FF00FF", "https://www.colorcombos.com/images/colors/FF0000.png"]
                       },
                       {
                       "id" : 12,
                       "questionType" : "true_false",
-                      "questionText" : "200 - 156 = ",
-                      "correctAnswer" : "44",
-                      "options" : ["52", "44"]
+                      "questionText" : "The 'em' unit is relative to the font size of the parent element.",
+                      "correctAnswer" : "true",
+                      "explanation" : "The 'em' unit is relative to the font size of the parent element. For example, if the font size of the parent element is 16px, 1em would be equal to 16px.",
+                      "options" : ["true", "false"]
                       
                       },
                       {
                       "id" : 13,
-                      "questionType" : "text_input",
-                      "questionText" : "Find f(3) if f(x)= 2^x + 7",
-                      "correctAnswer" : "15",
-                      "answerFieldId" : "answer_to_question"
+                      "questionType" : "mc",
+                      "questionText" : "Which CSS property is used to set the font size of text?",
+                      "correctAnswer" : "font-size",
+                      "explanation" : "The font-size property is used to set the font size of text in CSS.",
+                      "options" : ["font-size", " font-style"," font-family"]
                       },
                       {
                       "id" : 14,
-                      "questionType" : "true_false",
-                      "questionText" : "Is there a square root of 2?",
-                      "correctAnswer" : "No",
-                      "options" : ["Yes", "No"]
+                      "questionType" : "mc",
+                      "questionText" : "Which tag is used to create a headder in HTML?",
+                      "correctAnswer" : "<h1>",
+                      "explanation" : "The <h1> tag is used to create a hyperlink in HTML.",
+                      "options" : ["<h1>", "<a>","<p>"]
                       },
                       {
                       "id" : 15,
                       "questionType" : "true_false",
-                      "questionText" : "True or false: Quadrant 3 on a graph only contains negatve numbers.",
-                      "correctAnswer" : "True",
-                      "options" : ["True", "False"]
+                      "questionText" : "The 'box-sizing' property can be used to change how the width and height of an element are calculated.",
+                      "correctAnswer" : "true",
+                      "explanation" : "The 'box-sizing' property can be used to change how the width and height of an element are calculated. The default value is 'content-box', which only includes the content of the element in the width and height calculations. Setting it to 'border-box' includes the padding and border in the calculations as well.",
+                      "options" : ["true", "false"]
                       },
                       {
                       "id" : 16,
                       "questionType" : "text_input",
-                      "questionText" : "The E in PEMDAS stands for ________.",
-                      "correctAnswer" : "exponent",
+                      "questionText" : "The ________ property is used to set the font size of an HTML element.",
+                      "correctAnswer" : "font-size",
+                      "explanation" : "The 'font-size' property is used to set the font size of an HTML element using CSS.",
                       "answerFieldId" : "answer_to_question"
                       },
                       {
                       "id" : 17,
                       "questionType" : "text_input",
-                      "questionText" : "21 - 23 = ___",
-                      "correctAnswer" : "-2",
+                      "questionText" : "The <____> tag is used to define an ordered list in HTML.",
+                      "correctAnswer" : "ol",
+                      "explanation" : "the 'ol' tag is used to define an ordered list in HTML.",
                       "answerFieldId" : "answer_to_question"
                       },
                       {
                       "id" : 18,
-                      "questionType" : "true_false",
-                      "questionText" : "A quadrilateral is a shape with ___ sides.",
-                      "correctAnswer" : "4",
-                      "options" : ["6", "4"]
+                      "questionType" : "picture",
+                      "questionText" : "Which is displayed when the background-color is set to #FFFFFF",
+                      "correctAnswer" : "https://www.colorcombos.com/images/colors/FFFFFF.png",
+                      "explanation" : "#FFFFFF is the color white, while #000000 is black.",
+                      "options" : ["https://www.colorcombos.com/images/colors/000000.png", "https://www.colorcombos.com/images/colors/FFFFFF.png"]
                       },
                       {
                       "id" : 19,
                       "questionType" : "text_input",
-                      "questionText" : "Find x if 5x + 3 = 13",
-                      "correctAnswer" : "2",
+                      "questionText" : "The ________ property is used to set the height of an HTML element.",
+                      "correctAnswer" : "height",
+                      "explanation" : "The 'height' property is used to set the height of an HTML element using CSS.",
                       "answerFieldId" : "answer_to_question"
                       },
                       {
                       "id" : 20,
-                      "questionType" : "text_input",
-                      "questionText" : "What is 21 / 3 ?",
-                      "correctAnswer" : "7",
-                      "answerFieldId" : "answer_to_question"
+                      "questionType" : "mc",
+                      "questionText" : "Which CSS property is used to set the background image of an element?",
+                      "correctAnswer" : "background-image",
+                      "explanation" : "The background-color property is used to set the background color of an element in CSS.",
+                      "options" : ["background-size", "background-colo","background-image"]
                       }
 
   ]
